@@ -1,0 +1,37 @@
+/* Jumbotron Style */
+.jumbotron-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/images/heros/hero-image_2.webp');
+  width: 100%;
+}
+
+.jumbotron-title {
+  max-width: 500px;
+}
+
+.jumbotron-title h1 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 1.5em;
+  height: 2em;
+}
+
+.jumbotron-title p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#getStarted {
+  background-color: #2447f9;
+  padding: 1em;
+  border-radius: 3rem;
+  color: #ffffff;
+}

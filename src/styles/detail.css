@@ -1,0 +1,266 @@
+.content {
+  padding: 2em;
+}
+
+.content h2 {
+  text-align: left;
+  font-weight: 700;
+  color: #34364a;
+  padding-bottom: 20px;
+}
+
+.content h2 span {
+  text-align: left;
+  font-weight: 700;
+  color: #2447f9;
+  padding-bottom: 20px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #2447f9;
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+  filter: drop-shadow(0 0 0.2rem #8d8d8d);
+}
+
+.restaurant-profile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.5em;
+}
+
+.restaurant-profile h3 {
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.desc-icon {
+  color: #2447f9;
+}
+
+.restaurant-img-container, .restaurant-desc{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-block-end: 1.5em;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.restaurant-desc h3 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #34364a;
+}
+
+.address {
+  padding: 1em;
+  margin-top: 18px;
+  background-color: #e5e9f2;
+  border-radius: 1rem;
+}
+
+.restaurant-desc h2 span {
+  font-weight: 600;
+  color: #2447f9;
+}
+
+.restaurant-desc p {
+  font-size: 15px;
+  color: #34364a;
+  margin-top: -1em;
+}
+
+.restaurant-img-detail {
+  display: block;
+  width: 100%;
+  text-align: center;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.restaurant-detail h2 {
+  padding: 10px 0;
+  color: #34364a;
+}
+
+.restaurant-detail h2 span {
+  color: #2447f9;
+}
+
+.restaurant-detail p {
+  text-align: justify;
+}
+
+.menu-detail {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1em;
+}
+
+.food-detail, .drink-detail {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5em;
+  color: #34364a;
+  padding: 20px 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.food-detail h3 span, .drink-detail h3 span {
+  color: #2447f9;
+}
+
+.food-detail ul li, .drink-detail ul li {
+  padding-left: 10px;
+  background-color: #2447f9;
+  margin: 1em;
+  color: #fff;
+  width: 40%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.customer-reviews {
+  background-color: #2447f9;
+  padding: 2em;
+  border-radius: 1.5rem;
+}
+
+.customer-reviews h2 {
+  text-align: center;
+  color: #34364a;
+  background-color: #fff;
+  width: 10em;
+  border-radius: 0rem 0rem 2rem 2rem;
+  margin: -1.4em auto 0em auto;
+}
+
+.review-detail {
+  max-width: 100%;
+  text-align: flex-start;
+  font-size: 1em;
+}
+
+.detail-review-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2447f9;
+}
+
+.review-name {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review-date {
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+.review-body {
+  text-align: left;
+  color: #000000;
+  font-weight: 500;
+}
+
+.review-form {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.input-form label {
+  font-weight: 600;
+  color: #2447f9;
+}
+
+input, textarea {
+  display: block;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px 0 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-display: optional;
+  font-size: 15px;
+  min-width: 44px;
+  min-width: 44px;
+}
+
+#reviewerName {
+  width: 100%;
+  max-width: 100%;
+  height: 44px;
+  margin-top: -0.6em;
+}
+
+#reviewerContent {
+  padding: 10px;
+  height: 80px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #34364a;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  min-width: 44px;
+  min-width: 44px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all .10s ease-in-out;
+}
+
+.submit-btn:hover {
+  color: #fff;
+}
+
+.count:last-child {
+  color: #47bb8e;
+}

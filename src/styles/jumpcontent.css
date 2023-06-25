@@ -1,0 +1,22 @@
+/* skip to content */
+.skip-content {
+    position: absolute;
+    background-color: #2447f9;
+    color: rgb(255, 255, 255);
+    top: -100px;
+    border-radius: 3rem;
+    left: 0;
+    padding: 15px;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    text-decoration: none;
+    transform: translateY(-180%);
+    transition: transform 400ms ease-in;
+  }
+  
+  .skip-content:focus {
+    top: 6em;
+    left: 4.5em;
+    transform: translateY(0);
+  }

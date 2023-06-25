@@ -1,0 +1,15 @@
+.footer-content {
+  background-color: #0a0a0a;
+  margin-top: 2em;
+  height: 4em;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer-text {
+  width: 100%;
+}
